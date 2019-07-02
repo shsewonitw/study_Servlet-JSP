@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 화면</title>
+</head>
+<body>
+
+<form action="./regist" method="post">
+	<table>
+		<caption>로그인</caption>
+		<tr>
+			<th>아이디</th>
+			<!-- 
+				form 태그를 사용하여 서버로 데이터를 전송하는 경우 
+				input 태그의 name 속성의 값은 request.getParameter에
+				사용되는 키값이 됩니다.
+			 -->
+			<td><input type="text" name="id"></td>
+		</tr>
+		<tr>
+			<th>패스워드</th>
+			<td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+			<th>이름</th>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<th>주소</th>
+			<td><input type="text" name="address"></td>
+		</tr>
+		<tr>
+			<th>전화번호</th>
+			<td><input type="text" name="tel"></td>
+		</tr>
+		<tr>
+			<th colspan="2">
+				<input type="submit" value="가입">
+				<input type="submit" value="초기화">
+			</th>
+			
+		</tr>
+	</table>
+</form>
+</body>
+</html>

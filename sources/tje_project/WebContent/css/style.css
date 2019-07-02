@@ -1,0 +1,116 @@
+body{
+	background-color: #111111;
+}
+.bodyDiv{
+	margin: 90px;
+	margin-top : 30px;
+}
+.mainImg{
+	margin:0px;
+	padding:0px;
+}
+.mainMenu{
+	margin:9px;
+}
+.member_join_nav{
+	margin: 100px;
+	margin-top: 5px;
+}
+.modal_button{
+	background-color: rgba(255,255,255,0);
+	border-color: rgba(255,255,255,0);
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #808080;
+}
+.modal_button:hover{
+	color: white;
+}
+.signUpCheckLabel{
+	color: white;
+	align: left;	
+}
+#signInCheckLabel{
+	color: white;
+}
+
+#signOutButton{
+	color: #808080;
+
+	
+}
+#signOutButton:hover{
+	color: white;
+	text-decoration:none;
+}
+
+.memberCheckDiv{
+	margin: auto;
+	margin-top : 20px;
+	align: center;
+	width: 50%;
+	height: auto;
+}
+
+.memberModifyDiv{
+	margin: auto;
+	margin-top : 20px;
+	align: center;
+	width: 60%;
+	height: auto;
+}
+
+
+.categoryMenu {
+
+
+  left: 0;
+  z-index: 1000;
+  height: 34px;
+
+  min-width: 180px;
+
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: gray;
+  margin: 10px;
+}
+
+#recipeListATag {
+	color: #e3e3e3;
+}
